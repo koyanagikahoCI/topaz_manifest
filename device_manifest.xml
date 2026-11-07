@@ -7,8 +7,7 @@
 <remote name="rexons-aosp" fetch="git@github.com:Rexons-AOSP-Projects" />
     
 <!-- Device Sources -->
-<project name="android_device_xiaomi_tapas" path="device/xiaomi/tapas" remote="tapas-playground" revision="16" />
-<project name="proprietary_vendor_xiaomi_tapas" path="vendor/xiaomi/tapas" remote="tapas-playground" revision="16" />
+<project name="proprietary_vendor_xiaomi_tapas" path="vendor/xiaomi/tapas" remote="tapas-playground" revision="17" />
 <project name="android_device_xiaomi_tapas-kernel" path="device/xiaomi/tapas-kernel" remote="tapas-playground" revision="16-gki" />
 
 
@@ -47,8 +46,8 @@
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm6225/Android.mk" />
   </project>
 <!-- SE-Policy Stuff -->
-<project name="android_device_qcom_sepolicy_vndr_sm6225" path="device/qcom/sepolicy_vndr/sm6225" remote="tapas-playground" revision="16.2" />
-<project name="android_device_xiaomi_sepolicy" path="device/xiaomi/sepolicy" remote="tapas-playground-ssh" revision="16" />
+<project name="android_device_qcom_sepolicy_vndr_sm6225" path="device/qcom/sepolicy_vndr/sm6225" remote="tapas-playground" revision="17" />
+<project name="android_device_xiaomi_sepolicy" path="device/xiaomi/sepolicy" remote="tapas-playground-ssh" revision="17" />
 
 <!-- HALS -->
 <project path="hardware/qcom-caf/sm6225/audio/agm" name="android_hardware_qcom-caf_sm6225_audio_agm" remote="tapas-playground" revision="16.2" />
@@ -61,7 +60,7 @@
 
 <!-- Dolby & MiCam -->
 <project path="hardware/dolby" name="android_hardware_dolby" remote="rexons-aosp" revision="lunaris" />
-<project path="device/xiaomi/tapas-miuicamera" name="android_device_xiaomi_tapas-miuicamera" remote="tapas-playground-ssh" revision="16" />
-<project path="vendor/xiaomi/tapas-miuicamera" name="vendor_xiaomi_tapas-miuicamera" remote="tapas-playground-gitlab" revision="16" />
+<project path="device/xiaomi/tapas-miuicamera" name="android_device_xiaomi_tapas-miuicamera" remote="tapas-playground-ssh" revision="17" />
+<project path="vendor/xiaomi/tapas-miuicamera" name="vendor_xiaomi_tapas-miuicamera" remote="tapas-playground-gitlab" revision="17" />
     
 </manifest>
